@@ -1,0 +1,17 @@
+IF YOU WANT TO RUN OR TRY IN YOUR LAPTOP/PC
+
+1 First Step : Bash
+ngrok http 3000
+#if u dont have ngrok you can download it or just use the link i sent before in discord chat
+
+2 Second Step : Bash
+node ml/train.js
+
+3 Third Step : Bash
+node server.js
+
+4 Last step : Bash
+npm run url
+#it will show you 3 type but use the one name public URL
+
+THANK YOU FOR READING I HOPE IT CAN HELP Y'ALL :)
