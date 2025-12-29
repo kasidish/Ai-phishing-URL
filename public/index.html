@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>AI Phishing Sandbox</h2>
+<input id="url" placeholder="Paste URL here" size="50"/>
+<button onclick="scan()">Scan</button>
+
+<pre id="output"></pre>
+
+<script>
+async function scan() {
+  const url = document.getElementById("url").value;
+  const res = await fetch("/analyze", {
+    method: "POST",
+    headers: {"Content-Type": "application/json"},
+    body: JSON.stringify({ url })
+  });
+  const data = await res.json();
+  document.getElementById("output").textContent =
+    JSON.stringify(data, null, 2);
+}
+</script>
+</body>
+</html>
