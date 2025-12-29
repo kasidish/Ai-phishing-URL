@@ -13,7 +13,7 @@ fs.createReadStream("data/url.csv")
     y.push(Number(row.label));
   })
   .on("end", async () => {
-    console.log(`📚 Loading ${X.length} training samples...`);
+    console.log(`   Loading ${X.length} training samples...`);
     console.log(`   Safe URLs: ${y.filter(l => l === 0).length}`);
     console.log(`   Phishing URLs: ${y.filter(l => l === 1).length}`);
 
@@ -39,7 +39,7 @@ fs.createReadStream("data/url.csv")
       metrics: ["accuracy"]
     });
 
-    console.log("🚀 Training model (this may take a moment)...");
+    console.log(" Training model (this may take a moment)...");
     await model.fit(xs, ys, {
       epochs: 200,
       batchSize: X.length,
@@ -56,7 +56,7 @@ fs.createReadStream("data/url.csv")
     });
     
     // Test the model on training data
-    console.log("\n🧪 Testing on training data:");
+    console.log("\n Testing on training data:");
     const predictions = model.predict(xs);
     const predData = await predictions.data();
     for (let i = 0; i < Math.min(5, X.length); i++) {
@@ -96,3 +96,4 @@ fs.createReadStream("data/url.csv")
 
     console.log(" Model trained & saved to ml/model/");
   });
+
