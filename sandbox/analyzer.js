@@ -68,11 +68,11 @@ const loadModel = async () => {
     model.setWeights(weights);
     
     modelReady = true;
-    console.log("✅ Model loaded successfully");
+    console.log("Model loaded successfully");
   } catch (error) {
-    console.error("❌ Error loading model:", error.message);
+    console.error("Error loading model:", error.message);
     if (error.message.includes("not found")) {
-      console.error("💡 Please run: node ml/train.js");
+      console.error("Please run: node ml/train.js");
     }
   } finally {
     modelLoading = false;

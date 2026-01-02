@@ -6,6 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "train": "node ml/train.js",
+    "train:html": "node ml/trainHTML.js",
     "ngrok": "ngrok http 3000",
     "url": "node get-ngrok-url.js"
   },
@@ -17,6 +18,7 @@
     "@tensorflow/tfjs": "^4.22.0",
     "csv-parser": "^3.2.0",
     "express": "^5.2.1",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "puppeteer": "^24.34.0"
   }
 }

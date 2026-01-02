@@ -34,16 +34,16 @@ function getNgrokUrl() {
 
 getNgrokUrl()
   .then(url => {
-    console.log('\n🌐 Your public URL is:');
+    console.log('\nYour public URL is:');
     console.log('   ' + url);
-    console.log('\n📋 You can share this URL with others!');
+    console.log('\nYou can share this URL with others!');
     console.log('   Example: ' + url + '/analyze');
-    console.log('\n💡 Note: First-time visitors may see a warning page');
+    console.log('\nNote: First-time visitors may see a warning page');
     console.log('   They need to click "Visit Site" to continue\n');
   })
   .catch(error => {
-    console.error('❌ Error getting ngrok URL:', error.message);
-    console.log('\n💡 Make sure:');
+    console.error('Error getting ngrok URL:', error.message);
+    console.log('\nMake sure:');
     console.log('   1. ngrok is running (ngrok http 3000)');
     console.log('   2. Server is running (node server.js)');
     console.log('   3. Check ngrok web interface at http://127.0.0.1:4040\n');

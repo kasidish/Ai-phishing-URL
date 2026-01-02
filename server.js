@@ -1,5 +1,6 @@
 const express = require("express");
-const analyze = require("./sandbox/analyzer");
+// Use HTML-based analyzer (includes warning page bypass)
+const analyze = require("./sandbox/analyzerHTML");
 
 const app = express();
 app.use(express.json());
@@ -10,6 +11,7 @@ app.post("/analyze", async (req, res) => {
     if (!req.body.url) {
       return res.status(400).json({ error: "URL is required" });
     }
+    console.log(`\nAnalysis request: ${req.body.url}`);
     const result = await analyze(req.body.url);
     res.json(result);
   } catch (error) {
