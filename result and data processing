@@ -1,0 +1,361 @@
+Starting dataset processing...
+
+Reading phishing URL data...
+Found 46678 phishing URLs
+
+Reading safe URL data...
+Found 105 safe URLs
+
+Starting HTML fetching (Phishing: 200, Safe: 100)...
+
+   Processing phishing URL... 1/200 (Errors: 0)
+
+First phishing URL HTML structure (http://frost-treasury.netlify.app):
+================================================================================
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Site not found</title><style>:root{--colorRgbFacetsTeal600:2 128 125;--colorTealAction:var(--colorRgbFacetsTeal600);--colorRgbFacetsNeutralLight100:246 246 247;--colorRgbFacetsNeutralLight200:233 235 237;--colorHr:var(--colorRgbFacetsNeutralLight200);--colorRgbFacetsNeutralLight700:53 58 62;--colorGrayDarkest:var(--colorRgbFacetsNeutralLight700);--colorGrayLighter:var(--colorRgbFacetsNeutralLight200);--colorGrayLightest:var(--colorRgbFacetsNeutralLight100);--colorText:var(--colorGrayDarkest);--effectShadowLightShallow:0 1px 10px 0 rgb(53 58 62 / 6%),
+          0 2px 4px 0 rgb(53 58 62 / 8%);--colorRgbFacetsNeutralDark900:6 11 16;--colorStackText:rgb(var(--colorGrayDarkest));--colorCodeText:rgb(var(--colorGrayLightest));--colorRgbFacetsNeutralLight600:84 90 97;--colorGrayDarker:var(--colorRgbFacetsNeutralLight600);--colorTextMuted:var(--colorGrayDarker)}body{font-family:system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;background:#fff;overflow:hidden;margin:0;padding:0;line-height:1.5;color:rgb(var(--colorText))}@media(prefers-color-scheme:dark){body{background:rgb(var(--colorRgbFacetsNeutralDark900))}}h1{margin:0;font-size:1.375rem;line-height:1}h1+p{margin-top:8px}.main{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;width:100vw}.card{position:relative;width:75%;max-width:364px;padding:24px;background:#fff;border-radius:8px;box-shadow:var(--effectShadowLightShallow);border:1px solid rgb(var(--colorGrayLighter))}a{margin:0;font-weight:600;color:rgb(var(--colorTealAction));text-decoration-skip-ink:all;text-decoration-thickness:1px;text-underline-offset:2px;text-decoration-color:rgb(var(--colorTealAction)/.5);transition:text-decoration-color .15s ease-in-out}a:hover,a:focus-visible{text-decorati
+================================================================================     
+
+Total HTML length: 3217 characters
+
+   Processing phishing URL... 3/200 (Errors: 0)
+Error (http://url3531.wingsinvoice.be/ls/click?upn=u001.H1UZKJW8w6z7w2DYM-2BLFhEYN20JoS-2B0ssp9G57OWy4AgxtnA6GcKv11UWhZDQHgmvtLf_cYMx3-2F-2FEEwOtwgG809TIuBH9RnjM1sSbgUAjgX8komH-2Bty9Ti-2FXdD8clK1D-2F5sxyQtaxl8ILT1NrpOLFQEbBmgV-2FNaQUQWywB8VPoSWf-2BvparT0w08yg-2F4NEmyPPaCt-2BCuLG6c6-2Fn3oywNSyyJkdWSoYdiMdoQrIviyCaPv7kWe0P28a6ZG0AXGh12RENwE1EUU3IwxETmZD-2FCP0mx5KYw-3D-3D): Failed to fetch HTML (http://url3531.wingsinvoice.be/ls/click?upn=u001.H1UZKJW8w6z7w2DYM-2BLFhEYN20JoS-2B0ssp9G57OWy4AgxtnA6GcKv11UWhZDQHgmvtLf_cYMx3-2F-2FEEwOtwgG809TIuBH9RnjM1sSbgUAjgX8komH-2Bty9Ti-2FXdD8clK1D-2F5sxyQtaxl8ILT1NrpOLFQEbBmgV-2FNaQUQWywB8VPoSWf-2BvparT0w08yg-2F4NEmyPPaCt-2BCuLG6c6-2Fn3oywNSyyJkdWSoYdiMdoQrIviyCaPv7kWe0P28a6ZG0AXGh12RENwE1EUU3IwxETmZD-2FCP0mx5KYw-3D-3D): net::ERR_BLOCKED_BY_CLIENT at http://url3531.wingsinvoice.be/ls/click?upn=u001.H1UZKJW8w6z7w2DYM-2BLFhEYN20JoS-2B0ssp9G57OWy4AgxtnA6GcKv11UWhZDQHgmvtLf_cYMx3-2F-2FEEwOtwgG809TIuBH9RnjM1sSbgUAjgX8komH-2Bty9Ti-2FXdD8clK1D-2F5sxyQtaxl8ILT1NrpOLFQEbBmgV-2FNaQUQWywB8VPoSWf-2BvparT0w08yg-2F4NEmyPPaCt-2BCuLG6c6-2Fn3oywNSyyJkdWSoYdiMdoQrIviyCaPv7kWe0P28a6ZG0AXGh12RENwE1EUU3IwxETmZD-2FCP0mx5KYw-3D-3D
+   Processing phishing URL... 4/200 (Errors: 1)
+Error (http://allegrolokalnie.plad5gsgsas15xk.icu): Failed to fetch HTML (http://allegrolokalnie.plad5gsgsas15xk.icu): net::ERR_NAME_NOT_RESOLVED at http://allegrolokalnie.plad5gsgsas15xk.icu
+   Processing phishing URL... 6/200 (Errors: 2)
+Error (https://monthlyreports.renuvelmentasionisest.im/dbs): Failed to fetch HTML (https://monthlyreports.renuvelmentasionisest.im/dbs): Navigation timeout of 20000 ms exceeded
+   Processing phishing URL... 8/200 (Errors: 3)Warning page detected, attempting to bypass...
+   Processing phishing URL... 9/200 (Errors: 3)Warning page detected, attempting to bypass...
+   Processing phishing URL... 14/200 (Errors: 3)Warning page detected, attempting to bypass...
+   Processing phishing URL... 15/200 (Errors: 3)Warning page detected, attempting to bypass...
+   Processing phishing URL... 16/200 (Errors: 3)Warning page detected, attempting to bypass...
+   Processing phishing URL... 17/200 (Errors: 3)
+Error (https://www.resgatar-pontosbradesco.com): Failed to fetch HTML (https://www.resgatar-pontosbradesco.com): net::ERR_NAME_NOT_RESOLVED at https://www.resgatar-pontosbradesco.com
+   Processing phishing URL... 18/200 (Errors: 4)Warning page detected, attempting to bypass...
+   Processing phishing URL... 19/200 (Errors: 4)
+Error (https://livelonatal.v6.rocks/B55546/955448878887801): Failed to fetch HTML (https://livelonatal.v6.rocks/B55546/955448878887801): net::ERR_CERT_COMMON_NAME_INVALID at https://livelonatal.v6.rocks/B55546/955448878887801
+   Processing phishing URL... 20/200 (Errors: 5)
+Error (https://conviteprincipalseguro.com/): Failed to fetch HTML (https://conviteprincipalseguro.com/): Navigation timeout of 20000 ms exceeded
+   Processing phishing URL... 22/200 (Errors: 6)Warning page detected, attempting to bypass...
+   Processing phishing URL... 23/200 (Errors: 6)Warning page detected, attempting to bypass...
+   Processing phishing URL... 26/200 (Errors: 6)
+Error (https://royal-sky-211d.subtle4594.workers.dev/): Failed to fetch HTML (https://royal-sky-211d.subtle4594.workers.dev/): net::ERR_NAME_NOT_RESOLVED at https://royal-sky-211d.subtle4594.workers.dev/
+   Processing phishing URL... 29/200 (Errors: 7)
+Error (https://casaconfort.net/wp-admin/.clone_NhpoCYIc/network/dkb/Asstes/imgs/dkb/login.php): Failed to fetch HTML (https://casaconfort.net/wp-admin/.clone_NhpoCYIc/network/dkb/Asstes/imgs/dkb/login.php): net::ERR_NAME_NOT_RESOLVED at https://casaconfort.net/wp-admin/.clone_NhpoCYIc/network/dkb/Asstes/imgs/dkb/login.php
+   Processing phishing URL... 31/200 (Errors: 8)
+Error (https://oxlvpl.wx1hef.icu/o/4w8hx/1767004007063#merchantpay): Failed to fetch HTML (https://oxlvpl.wx1hef.icu/o/4w8hx/1767004007063#merchantpay): net::ERR_NAME_NOT_RESOLVED at https://oxlvpl.wx1hef.icu/o/4w8hx/1767004007063#merchantpay
+   Processing phishing URL... 33/200 (Errors: 9)
+Error (https://loteriascalxa.com/): Failed to fetch HTML (https://loteriascalxa.com/): net::ERR_NAME_NOT_RESOLVED at https://loteriascalxa.com/
+   Processing phishing URL... 34/200 (Errors: 10)
+Error (https://toolmanusa.net/-bank.japanpost.jp/): Failed to fetch HTML (https://toolmanusa.net/-bank.japanpost.jp/): Navigation timeout of 20000 ms exceeded
+   Processing phishing URL... 35/200 (Errors: 11)
+Error (https://nixydol.net/-bank.japanpost.jp/): Failed to fetch HTML (https://nixydol.net/-bank.japanpost.jp/): Navigation timeout of 20000 ms exceeded
+   Processing phishing URL... 36/200 (Errors: 12)Warning page detected, attempting to bypass...
+   Processing phishing URL... 37/200 (Errors: 12)Warning page detected, attempting to bypass...
+   Processing phishing URL... 40/200 (Errors: 12)
+Error (https://allegrolokalnie.pl-012934.rest/oferta/kierownica-logitech-g29-plus-shifter-gwarancja-bb6589): Failed to fetch HTML (https://allegrolokalnie.pl-012934.rest/oferta/kierownica-logitech-g29-plus-shifter-gwarancja-bb6589): net::ERR_NAME_NOT_RESOLVED at https://allegrolokalnie.pl-012934.rest/oferta/kierownica-logitech-g29-plus-shifter-gwarancja-bb6589
+   Processing phishing URL... 41/200 (Errors: 13)
+Error (https://allegrolokalnie.pl-smart8124122.cfd/oferta/47949270/kierownica-logitech-g920-shifter): Failed to fetch HTML (https://allegrolokalnie.pl-smart8124122.cfd/oferta/47949270/kierownica-logitech-g920-shifter): net::ERR_NAME_NOT_RESOLVED at https://allegrolokalnie.pl-smart8124122.cfd/oferta/47949270/kierownica-logitech-g920-shifter
+   Processing phishing URL... 42/200 (Errors: 14)
+Error (https://allegrolokalnie.zakup789560.click/oferta/xbox-series-s-1tb-2-pady-2ec261): Failed to fetch HTML (https://allegrolokalnie.zakup789560.click/oferta/xbox-series-s-1tb-2-pady-2ec261): net::ERR_NAME_NOT_RESOLVED at https://allegrolokalnie.zakup789560.click/oferta/xbox-series-s-1tb-2-pady-2ec261
+   Processing phishing URL... 43/200 (Errors: 15)
+Error (https://allegrolokalnie.pl-oferta-kategorie-polecane0293924.sbs/oferta/49464108/konsola-playstation5-z-napedem-2-pady-i-2-gry-na-gwarancji): Failed to fetch HTML (https://allegrolokalnie.pl-oferta-kategorie-polecane0293924.sbs/oferta/49464108/konsola-playstation5-z-napedem-2-pady-i-2-gry-na-gwarancji): net::ERR_NAME_NOT_RESOLVED at https://allegrolokalnie.pl-oferta-kategorie-polecane0293924.sbs/oferta/49464108/konsola-playstation5-z-napedem-2-pady-i-2-gry-na-gwarancji
+   Processing phishing URL... 44/200 (Errors: 16)
+Error (https://allegrolokalnie.pl-oferta8108808-samsung-galaxy-tab-s9-ultra.sbs): Failed to fetch HTML (https://allegrolokalnie.pl-oferta8108808-samsung-galaxy-tab-s9-ultra.sbs): net::ERR_NAME_NOT_RESOLVED at https://allegrolokalnie.pl-oferta8108808-samsung-galaxy-tab-s9-ultra.sbs
+   Processing phishing URL... 45/200 (Errors: 17)
+Error (https://amlwergov.online/): Failed to fetch HTML (https://amlwergov.online/): net::ERR_NAME_NOT_RESOLVED at https://amlwergov.online/
+   Processing phishing URL... 46/200 (Errors: 18)
+Error (https://allegrolokalnie.pl-2851541526kwhwttwh027262292621f.sbs): Failed to fetch HTML (https://allegrolokalnie.pl-2851541526kwhwttwh027262292621f.sbs): net::ERR_NAME_NOT_RESOLVED at https://allegrolokalnie.pl-2851541526kwhwttwh027262292621f.sbs    
+   Processing phishing URL... 47/200 (Errors: 19)
+Error (https://allegro-lokalnie.pl-4369.icu/cdn-cgi/phish-bypass?atok=UG1VCRKVWuanUC6.KPkzsploicAFpHcFJYrAdYNVRU8-1766872054.2396805-0.0.1.1-%2Fnferta%2Fzegarek-garmin-fenix-8-amoled-51mm-nowy-zaplombowany-na-gwarancji-be46c065&amp;original_path=%2Foferta%2Fzegarek-garmin-fenix-8-amoled-51mm-nowy-zaplombowany-na-gwarancji-be46c065&amp;cf-turnstile-response=): Failed to fetch HTML (https://allegro-lokalnie.pl-4369.icu/cdn-cgi/phish-bypass?atok=UG1VCRKVWuanUC6.KPkzsploicAFpHcFJYrAdYNVRU8-1766872054.2396805-0.0.1.1-%2Fnferta%2Fzegarek-garmin-fenix-8-amoled-51mm-nowy-zaplombowany-na-gwarancji-be46c065&amp;original_path=%2Foferta%2Fzegarek-garmin-fenix-8-amoled-51mm-nowy-zaplombowany-na-gwarancji-be46c065&amp;cf-turnstile-response=): net::ERR_NAME_NOT_RESOLVED at https://allegro-lokalnie.pl-4369.icu/cdn-cgi/phish-bypass?atok=UG1VCRKVWuanUC6.KPkzsploicAFpHcFJYrAdYNVRU8-1766872054.2396805-0.0.1.1-%2Fnferta%2Fzegarek-garmin-fenix-8-amoled-51mm-nowy-zaplombowany-na-gwarancji-be46c065&amp;original_path=%2Foferta%2Fzegarek-garmin-fenix-8-amoled-51mm-nowy-zaplombowany-na-gwarancji-be46c065&amp;cf-turnstile-response=
+   Processing phishing URL... 48/200 (Errors: 20)
+Error (https://spotifysupport.help/pages/num.php/): Failed to fetch HTML (https://spotifysupport.help/pages/num.php/): net::ERR_NAME_NOT_RESOLVED at https://spotifysupport.help/pages/num.php/
+   Processing phishing URL... 49/200 (Errors: 21)Warning page detected, attempting to bypass...
+   Processing phishing URL... 50/200 (Errors: 21)Warning page detected, attempting to bypass...
+   Processing phishing URL... 51/200 (Errors: 21)
+Error (https://newgame.icu/?fbp=1913653739210986&sub1=187101244023026&sub2=120238374866420713&sub3=7289&sub4=IMAGE2025-12-2623%3A16%3A17&sub5=PL%7B%7Brandom.digits.4%7D%7D2712pwa&utm_medium=paid&utm_source=fb&utm_id=120238374841540713&utm_content=120238374866660713&utm_term=120238374866420713&utm_campaign=120238374841540713&_piuid=84b9ba50-e3cb-11f0-9118-81dd4974c818&_pwaid=4EtJ&_splitid=-1&isRedirect=1&preBrowser=Facebook&_fbcliddel=1&_t=1766912369804&_rType=chrome&__hbus=1): Failed to fetch HTML (https://newgame.icu/?fbp=1913653739210986&sub1=187101244023026&sub2=120238374866420713&sub3=7289&sub4=IMAGE2025-12-2623%3A16%3A17&sub5=PL%7B%7Brandom.digits.4%7D%7D2712pwa&utm_medium=paid&utm_source=fb&utm_id=120238374841540713&utm_content=120238374866660713&utm_term=120238374866420713&utm_campaign=120238374841540713&_piuid=84b9ba50-e3cb-11f0-9118-81dd4974c818&_pwaid=4EtJ&_splitid=-1&isRedirect=1&preBrowser=Facebook&_fbcliddel=1&_t=1766912369804&_rType=chrome&__hbus=1): net::ERR_NAME_NOT_RESOLVED at https://newgame.icu/?fbp=1913653739210986&sub1=187101244023026&sub2=120238374866420713&sub3=7289&sub4=IMAGE2025-12-2623%3A16%3A17&sub5=PL%7B%7Brandom.digits.4%7D%7D2712pwa&utm_medium=paid&utm_source=fb&utm_id=120238374841540713&utm_content=120238374866660713&utm_term=120238374866420713&utm_campaign=120238374841540713&_piuid=84b9ba50-e3cb-11f0-9118-81dd4974c818&_pwaid=4EtJ&_splitid=-1&isRedirect=1&preBrowser=Facebook&_fbcliddel=1&_t=1766912369804&_rType=chrome&__hbus=1
+   Processing phishing URL... 52/200 (Errors: 22)Warning page detected, attempting to bypass...
+   Processing phishing URL... 53/200 (Errors: 22)
+Error (https://allegrolokalnie.pl-smart81247124.cfd/oferta/30510712/kierownica-logitech-g920-shifter): Failed to fetch HTML (https://allegrolokalnie.pl-smart81247124.cfd/oferta/30510712/kierownica-logitech-g920-shifter): net::ERR_NAME_NOT_RESOLVED at https://allegrolokalnie.pl-smart81247124.cfd/oferta/30510712/kierownica-logitech-g920-shifter
+   Processing phishing URL... 54/200 (Errors: 23)
+Error (https://zabki.albertheiin.online/bank_login.php?id=21): Failed to fetch HTML (https://zabki.albertheiin.online/bank_login.php?id=21): net::ERR_NAME_NOT_RESOLVED at https://zabki.albertheiin.online/bank_login.php?id=21
+   Processing phishing URL... 55/200 (Errors: 24)
+Error (https://webmail-it.fardaedtion.site/it/C0R0O03200/Select/login.php): Failed to fetch HTML (https://webmail-it.fardaedtion.site/it/C0R0O03200/Select/login.php): net::ERR_NAME_NOT_RESOLVED at https://webmail-it.fardaedtion.site/it/C0R0O03200/Select/login.php
+   Processing phishing URL... 56/200 (Errors: 25)
+Error (https://948zer48zuefze.mardnahada.site/039): Failed to fetch HTML (https://948zer48zuefze.mardnahada.site/039): net::ERR_NAME_NOT_RESOLVED at https://948zer48zuefze.mardnahada.site/039
+   Processing phishing URL... 57/200 (Errors: 26)
+Error (https://agenzia-portale.sbs/emiliano/login): Failed to fetch HTML (https://agenzia-portale.sbs/emiliano/login): net::ERR_NAME_NOT_RESOLVED at https://agenzia-portale.sbs/emiliano/login
+   Processing phishing URL... 58/200 (Errors: 27)
+Error (https://agenzia-portale.sbs/bmps/login): Failed to fetch HTML (https://agenzia-portale.sbs/bmps/login): net::ERR_NAME_NOT_RESOLVED at https://agenzia-portale.sbs/bmps/login
+   Processing phishing URL... 59/200 (Errors: 28)
+Error (https://agenzia-portale.sbs/agricole/login): Failed to fetch HTML (https://agenzia-portale.sbs/agricole/login): net::ERR_NAME_NOT_RESOLVED at https://agenzia-portale.sbs/agricole/login
+   Processing phishing URL... 60/200 (Errors: 29)
+Error (https://agenzia-portale.sbs/dweb/login): Failed to fetch HTML (https://agenzia-portale.sbs/dweb/login): net::ERR_NAME_NOT_RESOLVED at https://agenzia-portale.sbs/dweb/login
+   Processing phishing URL... 61/200 (Errors: 30)
+Error (https://agenzia-portale.sbs/bnl/login): Failed to fetch HTML (https://agenzia-portale.sbs/bnl/login): net::ERR_NAME_NOT_RESOLVED at https://agenzia-portale.sbs/bnl/login
+   Processing phishing URL... 62/200 (Errors: 31)
+Error (https://bank.269880.xyz/#/): Failed to fetch HTML (https://bank.269880.xyz/#/): net::ERR_NAME_NOT_RESOLVED at https://bank.269880.xyz/#/
+   Processing phishing URL... 65/200 (Errors: 32)
+Error (https://www.casertatrasporti.it/informazioni/): Failed to fetch HTML (https://www.casertatrasporti.it/informazioni/): net::ERR_CERT_COMMON_NAME_INVALID at https://www.casertatrasporti.it/informazioni/
+   Processing phishing URL... 67/200 (Errors: 33)
+Error (https://allegro.pl-oferta5173964.pl): Failed to fetch HTML (https://allegro.pl-oferta5173964.pl): net::ERR_NAME_NOT_RESOLVED at https://allegro.pl-oferta5173964.pl
+   Processing phishing URL... 68/200 (Errors: 34)
+Error (https://allegrolokalnie.pl-oferta5173964.pl): Failed to fetch HTML (https://allegrolokalnie.pl-oferta5173964.pl): net::ERR_NAME_NOT_RESOLVED at https://allegrolokalnie.pl-oferta5173964.pl
+   Processing phishing URL... 69/200 (Errors: 35)Warning page detected, attempting to bypass...
+   Processing phishing URL... 70/200 (Errors: 35)
+Error (https://karsti10.dreamhosters.com/wp-content/LoginServices/vrf.html#skl): Failed to fetch HTML (https://karsti10.dreamhosters.com/wp-content/LoginServices/vrf.html#skl): net::ERR_CERT_AUTHORITY_INVALID at https://karsti10.dreamhosters.com/wp-content/LoginServices/vrf.html#skl
+   Processing phishing URL... 71/200 (Errors: 36)
+Error (https://allegrolokalnie.pl-458996734.cfd): Failed to fetch HTML (https://allegrolokalnie.pl-458996734.cfd): net::ERR_NAME_NOT_RESOLVED at https://allegrolokalnie.pl-458996734.cfd
+   Processing phishing URL... 72/200 (Errors: 37)
+Error (https://allegrolokalnie.oferta-1634412-proponowane-dla-ciebie.icu): Failed to fetch HTML (https://allegrolokalnie.oferta-1634412-proponowane-dla-ciebie.icu): net::ERR_NAME_NOT_RESOLVED at https://allegrolokalnie.oferta-1634412-proponowane-dla-ciebie.icu
+   Processing phishing URL... 73/200 (Errors: 38)
+Error (https://www.quantumtide.cfd/xirdwgnbzoegmkdzfedqqt): Failed to fetch HTML (https://www.quantumtide.cfd/xirdwgnbzoegmkdzfedqqt): net::ERR_NAME_NOT_RESOLVED at https://www.quantumtide.cfd/xirdwgnbzoegmkdzfedqqt
+   Processing phishing URL... 74/200 (Errors: 39)
+Error (https://www.mystichorizon.cfd/8vZj0s): Failed to fetch HTML (https://www.mystichorizon.cfd/8vZj0s): net::ERR_NAME_NOT_RESOLVED at https://www.mystichorizon.cfd/8vZj0s
+   Processing phishing URL... 75/200 (Errors: 40)
+Error (http://allegrolokalnie.pl-oferta847304235.sbs/): Failed to fetch HTML (http://allegrolokalnie.pl-oferta847304235.sbs/): net::ERR_NAME_NOT_RESOLVED at http://allegrolokalnie.pl-oferta847304235.sbs/
+   Processing phishing URL... 76/200 (Errors: 41)
+Error (https://www.quantumstream.cfd/F7pUi5): Failed to fetch HTML (https://www.quantumstream.cfd/F7pUi5): net::ERR_NAME_NOT_RESOLVED at https://www.quantumstream.cfd/F7pUi5
+   Processing phishing URL... 79/200 (Errors: 42)
+Error (https://allegrolokalnie.pl-oferta847304235.sbs): Failed to fetch HTML (https://allegrolokalnie.pl-oferta847304235.sbs): net::ERR_NAME_NOT_RESOLVED at https://allegrolokalnie.pl-oferta847304235.sbs
+   Processing phishing URL... 80/200 (Errors: 43)
+Error (https://www.apexeln.cfd/vpqdqshkcovdMvmcdsueft): Failed to fetch HTML (https://www.apexeln.cfd/vpqdqshkcovdMvmcdsueft): net::ERR_NAME_NOT_RESOLVED at https://www.apexeln.cfd/vpqdqshkcovdMvmcdsueft
+   Processing phishing URL... 81/200 (Errors: 44)
+Error (https://www.pixelvoyage.cfd/F7pUi5): Failed to fetch HTML (https://www.pixelvoyage.cfd/F7pUi5): net::ERR_NAME_NOT_RESOLVED at https://www.pixelvoyage.cfd/F7pUi5   
+   Processing phishing URL... 82/200 (Errors: 45)
+Error (https://www.mystics.cfd/8vZj0s): Failed to fetch HTML (https://www.mystics.cfd/8vZj0s): net::ERR_NAME_NOT_RESOLVED at https://www.mystics.cfd/8vZj0s
+   Processing phishing URL... 83/200 (Errors: 46)
+Error (https://www.polarxs.cfd/plddamvxnyhjMxmwoqxurt): Failed to fetch HTML (https://www.polarxs.cfd/plddamvxnyhjMxmwoqxurt): net::ERR_NAME_NOT_RESOLVED at https://www.polarxs.cfd/plddamvxnyhjMxmwoqxurt
+   Processing phishing URL... 84/200 (Errors: 47)Warning page detected, attempting to bypass...
+   Processing phishing URL... 85/200 (Errors: 47)Warning page detected, attempting to bypass...
+   Processing phishing URL... 86/200 (Errors: 47)
+Error (https://ssmbc.fixmyaccount.cfd/login): Failed to fetch HTML (https://ssmbc.fixmyaccount.cfd/login): net::ERR_NAME_NOT_RESOLVED at https://ssmbc.fixmyaccount.cfd/login
+   Processing phishing URL... 87/200 (Errors: 48)
+Error (https://bank.2167968.xyz/): Failed to fetch HTML (https://bank.2167968.xyz/): net::ERR_NAME_NOT_RESOLVED at https://bank.2167968.xyz/
+   Processing phishing URL... 93/200 (Errors: 49)
+Error (http://allegrolokalnie.oferta-1535413-proponowane-dla-ciebie.icu): Failed to fetch HTML (http://allegrolokalnie.oferta-1535413-proponowane-dla-ciebie.icu): net::ERR_NAME_NOT_RESOLVED at http://allegrolokalnie.oferta-1535413-proponowane-dla-ciebie.icu
+   Processing phishing URL... 94/200 (Errors: 50)
+Error (http://allegrolokalnie.pl-firmowe-18821.icu): Failed to fetch HTML (http://allegrolokalnie.pl-firmowe-18821.icu): net::ERR_NAME_NOT_RESOLVED at http://allegrolokalnie.pl-firmowe-18821.icu
+   Processing phishing URL... 95/200 (Errors: 51)
+Error (https://allegrolokalnie.pl-firmowe-77163.sbs): Failed to fetch HTML (https://allegrolokalnie.pl-firmowe-77163.sbs): net::ERR_NAME_NOT_RESOLVED at https://allegrolokalnie.pl-firmowe-77163.sbs
+   Processing phishing URL... 96/200 (Errors: 52)
+Error (http://allegrolokalnie.pl-7753124.top): Failed to fetch HTML (http://allegrolokalnie.pl-7753124.top): net::ERR_NAME_NOT_RESOLVED at http://allegrolokalnie.pl-7753124.top
+   Processing phishing URL... 98/200 (Errors: 53)Warning page detected, attempting to bypass...
+   Processing phishing URL... 99/200 (Errors: 53)Warning page detected, attempting to bypass...
+   Processing phishing URL... 100/200 (Errors: 53)Warning page detected, attempting to bypass...
+   Processing phishing URL... 101/200 (Errors: 53)Warning page detected, attempting to bypass...
+   Processing phishing URL... 103/200 (Errors: 53)Warning page detected, attempting to bypass...
+   Processing phishing URL... 105/200 (Errors: 53)
+Error (http://allegrolokalnie.pl-oferta8108808-google-pixel-10-pro-xl.sbs): Failed to fetch HTML (http://allegrolokalnie.pl-oferta8108808-google-pixel-10-pro-xl.sbs): net::ERR_NAME_NOT_RESOLVED at http://allegrolokalnie.pl-oferta8108808-google-pixel-10-pro-xl.sbs
+   Processing phishing URL... 106/200 (Errors: 54)
+Error (https://allegrolokalnie.pl-oferta775292969.sbs): Failed to fetch HTML (https://allegrolokalnie.pl-oferta775292969.sbs): net::ERR_NAME_NOT_RESOLVED at https://allegrolokalnie.pl-oferta775292969.sbs
+   Processing phishing URL... 107/200 (Errors: 55)
+Error (http://allegrolokalnie.pl-oferta587971899.sbs): Failed to fetch HTML (http://allegrolokalnie.pl-oferta587971899.sbs): net::ERR_NAME_NOT_RESOLVED at http://allegrolokalnie.pl-oferta587971899.sbs
+   Processing phishing URL... 108/200 (Errors: 56)
+Error (https://allegrolokalnie.pl-7272625525262262fga5.sbs): Failed to fetch HTML (https://allegrolokalnie.pl-7272625525262262fga5.sbs): net::ERR_NAME_NOT_RESOLVED at https://allegrolokalnie.pl-7272625525262262fga5.sbs
+   Processing phishing URL... 109/200 (Errors: 57)
+Error (https://allegro.pl-oferta24901839.sbs): Failed to fetch HTML (https://allegro.pl-oferta24901839.sbs): net::ERR_NAME_NOT_RESOLVED at https://allegro.pl-oferta24901839.sbs
+   Processing phishing URL... 110/200 (Errors: 58)
+Error (http://allegro.pl-oferta909597465.sbs): Failed to fetch HTML (http://allegro.pl-oferta909597465.sbs): net::ERR_NAME_NOT_RESOLVED at http://allegro.pl-oferta909597465.sbs
+   Processing phishing URL... 111/200 (Errors: 59)
+Error (http://allegrolokalnie.pl-oferta909597465.sbs): Failed to fetch HTML (http://allegrolokalnie.pl-oferta909597465.sbs): net::ERR_NAME_NOT_RESOLVED at http://allegrolokalnie.pl-oferta909597465.sbs
+   Processing phishing URL... 112/200 (Errors: 60)
+Error (http://allegrolokalnie.pl-oferta7236911.icu): Failed to fetch HTML (http://allegrolokalnie.pl-oferta7236911.icu): net::ERR_NAME_NOT_RESOLVED at http://allegrolokalnie.pl-oferta7236911.icu
+   Processing phishing URL... 113/200 (Errors: 61)
+Error (https://allegro.pl-oferta7236911.icu): Failed to fetch HTML (https://allegro.pl-oferta7236911.icu): net::ERR_NAME_NOT_RESOLVED at https://allegro.pl-oferta7236911.icu
+   Processing phishing URL... 114/200 (Errors: 62)
+Error (https://allegrolokalnie.oferta42801.sbs): Failed to fetch HTML (https://allegrolokalnie.oferta42801.sbs): net::ERR_NAME_NOT_RESOLVED at https://allegrolokalnie.oferta42801.sbs
+   Processing phishing URL... 115/200 (Errors: 63)
+Error (http://allegrolokalnie.pl-oferta8473057.cfd): Failed to fetch HTML (http://allegrolokalnie.pl-oferta8473057.cfd): net::ERR_NAME_NOT_RESOLVED at http://allegrolokalnie.pl-oferta8473057.cfd
+   Processing phishing URL... 116/200 (Errors: 64)
+Error (https://allegrolokalnie.pl-7162811hagahn1871233trrewey99116hwysga6.cfd): Failed to fetch HTML (https://allegrolokalnie.pl-7162811hagahn1871233trrewey99116hwysga6.cfd): net::ERR_NAME_NOT_RESOLVED at https://allegrolokalnie.pl-7162811hagahn1871233trrewey99116hwysga6.cfd
+   Processing phishing URL... 117/200 (Errors: 65)
+Error (http://allegro.pl-oferta8473057.cfd): Failed to fetch HTML (http://allegro.pl-oferta8473057.cfd): net::ERR_NAME_NOT_RESOLVED at http://allegro.pl-oferta8473057.cfd
+   Processing phishing URL... 118/200 (Errors: 66)
+Error (http://allegrolokalnie.992389238523.sbs): Failed to fetch HTML (http://allegrolokalnie.992389238523.sbs): net::ERR_NAME_NOT_RESOLVED at http://allegrolokalnie.992389238523.sbs
+   Processing phishing URL... 119/200 (Errors: 67)
+Error (http://allegrolokalnie.pl-oferta775292969.sbs): Failed to fetch HTML (http://allegrolokalnie.pl-oferta775292969.sbs): net::ERR_BLOCKED_BY_CLIENT at http://allegrolokalnie.pl-oferta775292969.sbs
+   Processing phishing URL... 120/200 (Errors: 68)
+Error (http://allegro.pl-oferta775292969.sbs): Failed to fetch HTML (http://allegro.pl-oferta775292969.sbs): net::ERR_NAME_NOT_RESOLVED at http://allegro.pl-oferta775292969.sbs
+   Processing phishing URL... 121/200 (Errors: 69)
+Error (http://allegrolokalnie.pl6748934.cfd): Failed to fetch HTML (http://allegrolokalnie.pl6748934.cfd): net::ERR_NAME_NOT_RESOLVED at http://allegrolokalnie.pl6748934.cfd
+   Processing phishing URL... 122/200 (Errors: 70)
+Error (http://allegrolokalnie.pl-oferta24901839.sbs): Failed to fetch HTML (http://allegrolokalnie.pl-oferta24901839.sbs): net::ERR_NAME_NOT_RESOLVED at http://allegrolokalnie.pl-oferta24901839.sbs
+   Processing phishing URL... 123/200 (Errors: 71)
+Error (https://mega.oficial.is/a1): Failed to fetch HTML (https://mega.oficial.is/a1): net::ERR_NAME_NOT_RESOLVED at https://mega.oficial.is/a1
+   Processing phishing URL... 124/200 (Errors: 72)
+Error (https://mega.oficial.is/a1/): Failed to fetch HTML (https://mega.oficial.is/a1/): net::ERR_NAME_NOT_RESOLVED at https://mega.oficial.is/a1/
+   Processing phishing URL... 125/200 (Errors: 73)Warning page detected, attempting to bypass...
+   Processing phishing URL... 126/200 (Errors: 73)Warning page detected, attempting to bypass...
+   Processing phishing URL... 127/200 (Errors: 73)Warning page detected, attempting to bypass...
+   Processing phishing URL... 128/200 (Errors: 73)Warning page detected, attempting to bypass...
+   Processing phishing URL... 129/200 (Errors: 73)
+Error (https://dossier062379.connect-reglement.fr/): Failed to fetch HTML (https://dossier062379.connect-reglement.fr/): net::ERR_NAME_NOT_RESOLVED at https://dossier062379.connect-reglement.fr/
+   Processing phishing URL... 130/200 (Errors: 74)
+Error (https://dossier062379.connect-reglement.fr/as.php): Failed to fetch HTML (https://dossier062379.connect-reglement.fr/as.php): net::ERR_NAME_NOT_RESOLVED at https://dossier062379.connect-reglement.fr/as.php
+   Processing phishing URL... 132/200 (Errors: 75)
+Error (https://conviteexclusivocenturion.com/): Failed to fetch HTML (https://conviteexclusivocenturion.com/): net::ERR_CONNECTION_REFUSED at https://conviteexclusivocenturion.com/
+   Processing phishing URL... 133/200 (Errors: 76)
+Error (https://allegrolokalnie.pl-oferta67793456.icu/): Failed to fetch HTML (https://allegrolokalnie.pl-oferta67793456.icu/): net::ERR_NAME_NOT_RESOLVED at https://allegrolokalnie.pl-oferta67793456.icu/
+   Processing phishing URL... 145/200 (Errors: 77)
+Error (https://allegrolokalnie.pl-oferta131231.sbs/): Failed to fetch HTML (https://allegrolokalnie.pl-oferta131231.sbs/): net::ERR_NAME_NOT_RESOLVED at https://allegrolokalnie.pl-oferta131231.sbs/
+   Processing phishing URL... 146/200 (Errors: 78)Warning page detected, attempting to bypass...
+   Processing phishing URL... 147/200 (Errors: 78)
+Error (https://www.cembra-ch.com/): Failed to fetch HTML (https://www.cembra-ch.com/): net::ERR_CERT_AUTHORITY_INVALID at https://www.cembra-ch.com/
+   Processing phishing URL... 148/200 (Errors: 79)Warning page detected, attempting to bypass...
+   Processing phishing URL... 152/200 (Errors: 79)
+Error (https://www.kineti.cfd/avpdlwfmduneMmsvgoxdzt): Failed to fetch HTML (https://www.kineti.cfd/avpdlwfmduneMmsvgoxdzt): net::ERR_NAME_NOT_RESOLVED at https://www.kineti.cfd/avpdlwfmduneMmsvgoxdzt
+   Processing phishing URL... 153/200 (Errors: 80)
+Error (https://auuousseen.top/kaxOS3/): Failed to fetch HTML (https://auuousseen.top/kaxOS3/): net::ERR_NAME_NOT_RESOLVED at https://auuousseen.top/kaxOS3/
+   Processing phishing URL... 154/200 (Errors: 81)Warning page detected, attempting to bypass...
+   Processing phishing URL... 158/200 (Errors: 81)
+Error (https://www.troniva.cfd/sszdmgsflihuMqtokipdpt): Failed to fetch HTML (https://www.troniva.cfd/sszdmgsflihuMqtokipdpt): net::ERR_NAME_NOT_RESOLVED at https://www.troniva.cfd/sszdmgsflihuMqtokipdpt
+   Processing phishing URL... 160/200 (Errors: 82)
+Error (https://www.heliosn.cfd/y1.html): Failed to fetch HTML (https://www.heliosn.cfd/y1.html): net::ERR_NAME_NOT_RESOLVED at https://www.heliosn.cfd/y1.html
+   Processing phishing URL... 161/200 (Errors: 83)
+Error (https://www.heliosn.cfd/nwldaeeexxyfMqxveqnnmt): Failed to fetch HTML (https://www.heliosn.cfd/nwldaeeexxyfMqxveqnnmt): net::ERR_NAME_NOT_RESOLVED at https://www.heliosn.cfd/nwldaeeexxyfMqxveqnnmt
+   Processing phishing URL... 162/200 (Errors: 84)
+Error (https://www.styluse.cfd/gnhdfzezunrcMiwkktwxtt): Failed to fetch HTML (https://www.styluse.cfd/gnhdfzezunrcMiwkktwxtt): net::ERR_NAME_NOT_RESOLVED at https://www.styluse.cfd/gnhdfzezunrcMiwkktwxtt
+   Processing phishing URL... 163/200 (Errors: 85)
+Error (https://www.zephyrn.cfd/tpsddfbvllbjMompybqcct): Failed to fetch HTML (https://www.zephyrn.cfd/tpsddfbvllbjMompybqcct): net::ERR_NAME_NOT_RESOLVED at https://www.zephyrn.cfd/tpsddfbvllbjMompybqcct
+   Processing phishing URL... 165/200 (Errors: 86)
+Error (https://allegrolokalnie.pl-2114247.icu/oferta/zetor-4011-traktor-do-renowacji/16698): Failed to fetch HTML (https://allegrolokalnie.pl-2114247.icu/oferta/zetor-4011-traktor-do-renowacji/16698): net::ERR_NAME_NOT_RESOLVED at https://allegrolokalnie.pl-2114247.icu/oferta/zetor-4011-traktor-do-renowacji/16698
+   Processing phishing URL... 166/200 (Errors: 87)
+Error (http://allegro.87534.icu/): Failed to fetch HTML (http://allegro.87534.icu/): net::ERR_NAME_NOT_RESOLVED at http://allegro.87534.icu/
+   Processing phishing URL... 167/200 (Errors: 88)Warning page detected, attempting to bypass...
+   Processing phishing URL... 170/200 (Errors: 88)Warning page detected, attempting to bypass...
+   Processing phishing URL... 171/200 (Errors: 88)Warning page detected, attempting to bypass...
+   Processing phishing URL... 173/200 (Errors: 88)Warning page detected, attempting to bypass...
+   Processing phishing URL... 174/200 (Errors: 88)Warning page detected, attempting to bypass...
+   Processing phishing URL... 175/200 (Errors: 88)Warning page detected, attempting to bypass...
+   Processing phishing URL... 178/200 (Errors: 88)Warning page detected, attempting to bypass...
+   Processing phishing URL... 179/200 (Errors: 88)Warning page detected, attempting to bypass...
+   Processing phishing URL... 180/200 (Errors: 88)Warning page detected, attempting to bypass...
+   Processing phishing URL... 181/200 (Errors: 88)Warning page detected, attempting to bypass...
+   Processing phishing URL... 182/200 (Errors: 88)Warning page detected, attempting to bypass...
+   Processing phishing URL... 186/200 (Errors: 88)
+Error (https://site-h9wtnddtp.godaddysites.com/): Failed to fetch HTML (https://site-h9wtnddtp.godaddysites.com/): Navigation timeout of 20000 ms exceeded
+   Processing phishing URL... 187/200 (Errors: 89)Warning page detected, attempting to bypass...
+   Processing phishing URL... 188/200 (Errors: 89)Warning page detected, attempting to bypass...
+   Processing phishing URL... 189/200 (Errors: 89)Warning page detected, attempting to bypass...
+   Processing phishing URL... 192/200 (Errors: 89)
+Error (https://distributions-relay.com/): Failed to fetch HTML (https://distributions-relay.com/): net::ERR_CERT_COMMON_NAME_INVALID at https://distributions-relay.com/  
+   Processing phishing URL... 193/200 (Errors: 90)
+Error (https://distributions-relay.com/index.php): Failed to fetch HTML (https://distributions-relay.com/index.php): net::ERR_CERT_COMMON_NAME_INVALID at https://distributions-relay.com/index.php
+   Processing phishing URL... 194/200 (Errors: 91)
+Error (https://vlnteb0nden.digital/processing/DB048FCA2?): Failed to fetch HTML (https://vlnteb0nden.digital/processing/DB048FCA2?): net::ERR_NAME_NOT_RESOLVED at https://vlnteb0nden.digital/processing/DB048FCA2?
+   Processing phishing URL... 195/200 (Errors: 92)
+Error (https://spotifysupport.help/pages/login.php): Failed to fetch HTML (https://spotifysupport.help/pages/login.php): net::ERR_NAME_NOT_RESOLVED at https://spotifysupport.help/pages/login.php
+   Processing phishing URL... 200/200 (Errors: 93)
+  Phishing URL processing complete
+   Success: 107, Failed: 93
+
+   Processing safe URL... 1/100 (Errors: 93)
+
+First safe URL HTML structure (https://google.com):
+================================================================================
+<!DOCTYPE html><html itemscope="" itemtype="http://schema.org/WebPage" lang="th"><head><meta charset="UTF-8"><meta content="origin" name="referrer"><link href="//www.gstatic.com/images/branding/searchlogo/ico/favicon.ico" rel="icon"><meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"><title>Google</title><script nonce="">window._hst=Date.now();</script><script nonce="">(function(){var _g={kEI:'1_RXaYORCIuP2roPn4qf6Ak',kEXPI:'31',kBL:'r2T-',kOPI:89978449};(function(){var a;((a=window.google)==null?0:a.stvsc)?google.kEI=_g.kEI:window.google=_g;}).call(this);})();(function(){google.sn='webhp';google.kHL='th';google.rdn=false;})();(function(){
+var g=this||self;function k(){return window.google&&window.google.kOPI||null};var l,m=[];function n(a){for(var b;a&&(!a.getAttribute||!(b=a.getAttribute("eid")));)a=a.parentNode;return b||l}function p(a){for(var b=null;a&&(!a.getAttribute||!(b=a.getAttribute("leid")));)a=a.parentNode;return b}function q(a){/^http:/i.test(a)&&window.location.protocol==="https:"&&(google.ml&&google.ml(Error("a"),!1,{src:a,glmm:1}),a="");return a}
+function r(a,b,d,c,h){var e="";b.search("&ei=")===-1&&(e="&ei="+n(c),b.search("&lei=")===-1&&(c=p(c))&&(e+="&lei="+c));var f=b.search("&cshid=")===-1&&a!=="slh";c="&zx="+Date.now().toString();g._cshid&&f&&(c+="&cshid="+g._cshid);(d=d())&&(c+="&opi="+d);return"/"+(h||"gen_204")+"?atyp=i&ct="+String(a)+"&cad="+(b+e+c)};l=google.kEI;google.getEI=n;google.getLEI=p;google.ml=function(){return null};google.log=function(a,b,d,c,h,e){e=e===void 0?k:e;d||(d=r(a,b,e,c,h));if(d=q(d)){a=new Image;var f=m.length;m[f]=a;a.onerror=a.onload=a.onabort=function(){delete m[f]};a.src=d}};google.logUrl=function(a,b){b=b===void 0?k:b;return r("",a,b)};}).call(this);(function(){google.y={};google.sy={};function e(a,b,c){if(a)var d=a.id;else{do d=Math.random();while(c[d])}c[d]=[a,b]}var f;(f=google).x||(f.x=function(a,b){e(a,b,google.y)});var g;(g=google).sx||(g.sx=function(a,b){e(a,b,goog
+================================================================================     
+
+Total HTML length: 250745 characters
+
+   Processing safe URL... 5/100 (Errors: 93)
+Error (https://kbtg.tech): Failed to fetch HTML (https://kbtg.tech): net::ERR_NAME_NOT_RESOLVED at https://kbtg.tech
+   Processing safe URL... 8/100 (Errors: 94)Warning page detected, attempting to bypass...
+   Processing safe URL... 10/100 (Errors: 94)Warning page detected, attempting to bypass...
+   Processing safe URL... 11/100 (Errors: 94)Warning page detected, attempting to bypass...
+   Processing safe URL... 12/100 (Errors: 94)Warning page detected, attempting to bypass...
+   Processing safe URL... 14/100 (Errors: 94)Warning page detected, attempting to bypass...
+   Processing safe URL... 15/100 (Errors: 94)Warning page detected, attempting to bypass...
+   Processing safe URL... 16/100 (Errors: 94)Warning page detected, attempting to bypass...
+   Processing safe URL... 18/100 (Errors: 94)Warning page detected, attempting to bypass...
+   Processing safe URL... 21/100 (Errors: 94)
+Error (https://paypal.com): Failed to fetch HTML (https://paypal.com): Navigation timeout of 20000 ms exceeded
+   Processing safe URL... 27/100 (Errors: 95)Warning page detected, attempting to bypass...
+   Processing safe URL... 28/100 (Errors: 95)Warning page detected, attempting to bypass...
+   Processing safe URL... 29/100 (Errors: 95)Warning page detected, attempting to bypass...
+   Processing safe URL... 30/100 (Errors: 95)Warning page detected, attempting to bypass...
+   Processing safe URL... 35/100 (Errors: 95)Warning page detected, attempting to bypass...
+   Processing safe URL... 38/100 (Errors: 95)Warning page detected, attempting to bypass...
+   Processing safe URL... 40/100 (Errors: 95)Warning page detected, attempting to bypass...
+   Processing safe URL... 41/100 (Errors: 95)Warning page detected, attempting to bypass...
+   Processing safe URL... 42/100 (Errors: 95)Warning page detected, attempting to bypass...
+   Processing safe URL... 43/100 (Errors: 95)Warning page detected, attempting to bypass...
+   Processing safe URL... 44/100 (Errors: 95)Warning page detected, attempting to bypass...
+   Processing safe URL... 47/100 (Errors: 95)Warning page detected, attempting to bypass...
+   Processing safe URL... 50/100 (Errors: 95)
+Error (https://canon.com): Failed to fetch HTML (https://canon.com): Navigation timeout of 20000 ms exceeded
+   Processing safe URL... 52/100 (Errors: 96)Warning page detected, attempting to bypass...
+   Processing safe URL... 53/100 (Errors: 96)Warning page detected, attempting to bypass...
+   Processing safe URL... 54/100 (Errors: 96)Warning page detected, attempting to bypass...
+   Processing safe URL... 55/100 (Errors: 96)Warning page detected, attempting to bypass...
+   Processing safe URL... 56/100 (Errors: 96)Warning page detected, attempting to bypass...
+   Processing safe URL... 57/100 (Errors: 96)Warning page detected, attempting to bypass...
+   Processing safe URL... 58/100 (Errors: 96)Warning page detected, attempting to bypass...
+   Processing safe URL... 61/100 (Errors: 96)Warning page detected, attempting to bypass...
+   Processing safe URL... 62/100 (Errors: 96)
+Error (https://h&m.com): Failed to fetch HTML (https://h&m.com): net::ERR_NAME_NOT_RESOLVED at https://h&m.com
+   Processing safe URL... 63/100 (Errors: 97)Warning page detected, attempting to bypass...
+   Processing safe URL... 64/100 (Errors: 97)Warning page detected, attempting to bypass...
+   Processing safe URL... 65/100 (Errors: 97)
+Error (https://pepsi.com): Failed to fetch HTML (https://pepsi.com): Navigation timeout of 20000 ms exceeded
+   Processing safe URL... 69/100 (Errors: 98)Warning page detected, attempting to bypass...
+   Processing safe URL... 70/100 (Errors: 98)Warning page detected, attempting to bypass...
+   Processing safe URL... 73/100 (Errors: 98)Warning page detected, attempting to bypass...
+   Processing safe URL... 76/100 (Errors: 98)
+Error (https://cnn.com): Failed to fetch HTML (https://cnn.com): Navigation timeout of 20000 ms exceeded
+   Processing safe URL... 78/100 (Errors: 99)Warning page detected, attempting to bypass...
+   Processing safe URL... 80/100 (Errors: 99)Warning page detected, attempting to bypass...
+   Processing safe URL... 81/100 (Errors: 99)
+Error (https://forbes.com): Failed to fetch HTML (https://forbes.com): Navigation timeout of 20000 ms exceeded
+   Processing safe URL... 82/100 (Errors: 100)
+Error (https://techcrunch.com): Failed to fetch HTML (https://techcrunch.com): Navigation timeout of 20000 ms exceeded
+   Processing safe URL... 83/100 (Errors: 101)
+Error (https://wired.com): Failed to fetch HTML (https://wired.com): Navigation timeout of 20000 ms exceeded
+   Processing safe URL... 84/100 (Errors: 102)
+Error (https://theverge.com): Failed to fetch HTML (https://theverge.com): Navigation timeout of 20000 ms exceeded
+   Processing safe URL... 85/100 (Errors: 103)Warning page detected, attempting to bypass...
+   Processing safe URL... 86/100 (Errors: 103)
+Error (https://engadget.com): Failed to fetch HTML (https://engadget.com): Navigation timeout of 20000 ms exceeded
+   Processing safe URL... 87/100 (Errors: 104)Warning page detected, attempting to bypass...
+   Processing safe URL... 90/100 (Errors: 104)Warning page detected, attempting to bypass...
+   Processing safe URL... 91/100 (Errors: 104)Warning page detected, attempting to bypass...
+   Processing safe URL... 92/100 (Errors: 104)Warning page detected, attempting to bypass...
+
+Error (https://tumblr.com): Failed to fetch HTML (https://tumblr.com): Execution context was destroyed, most likely because of a navigation.
+   Processing safe URL... 93/100 (Errors: 105)Warning page detected, attempting to bypass...
+   Processing safe URL... 94/100 (Errors: 105)
+Error (https://imgur.com): Failed to fetch HTML (https://imgur.com): Navigation timeout of 20000 ms exceeded
+   Processing safe URL... 97/100 (Errors: 106)Warning page detected, attempting to bypass...
+   Processing safe URL... 99/100 (Errors: 106)Warning page detected, attempting to bypass...
+   Processing safe URL... 100/100 (Errors: 106)
+   Safe URL processing complete
+   Success: 194, Failed: 106
+
+ Total processed: 194 (Success: 194, Failed: 106)
+
+   Training data: 300 samples
+   Safe URLs: 100
+   Phishing URLs: 200
+
+
+============================
+Hi, looks like you are running TensorFlow.js in Node.js. To speed things up dramatically, install our node backend, visit https://github.com/tensorflow/tfjs-node for more details.
+============================
+Starting model training...
+
+   Epoch 1/100 - Loss: 2.4582, Accuracy: 58.1%, Val Loss: 0.8623, Val Acc: 56.7%
+   Epoch 20/100 - Loss: 1.2149, Accuracy: 87.4%, Val Loss: 0.6416, Val Acc: 56.7%
+   Epoch 40/100 - Loss: 0.8792, Accuracy: 88.5%, Val Loss: 1.2283, Val Acc: 60.0%
+   Epoch 60/100 - Loss: 0.3924, Accuracy: 92.2%, Val Loss: 2.2502, Val Acc: 43.3%
+   Epoch 80/100 - Loss: 0.3238, Accuracy: 92.6%, Val Loss: 1.8558, Val Acc: 50.0%
+   Epoch 100/100 - Loss: 0.3275, Accuracy: 93.3%, Val Loss: 1.5506, Val Acc: 50.0%
+
+Testing on training data:
+   Sample 1: Actual=1, Predicted=96% (0.956)
+   Sample 2: Actual=1, Predicted=96% (0.956)
+   Sample 3: Actual=1, Predicted=95% (0.951)
+   Sample 4: Actual=1, Predicted=95% (0.951)
+   Sample 5: Actual=1, Predicted=92% (0.916)
